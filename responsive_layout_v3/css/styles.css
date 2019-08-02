@@ -32,7 +32,13 @@ header img{
 #contact{
   font-family: 'Open Sans', sans-serif;
 }
+p{
+  color: grey;
+}
 
+#playground{
+  padding: 15px;
+}
 /************** navigatoin *********************/
 
 .main-nav {
@@ -68,7 +74,7 @@ li:hover{
   color:black;
 }
 
-}
+
 ul{
   padding: 0px;
 }
@@ -85,6 +91,41 @@ li{
   height: 100%;
   overflow: hidden;
 }
+
+
+.circle{
+  position: relative;
+  top: 25%;
+
+    height: 55px;
+    width: 55px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .overcirclec{
+      position:absolute;
+      right: 10px;
+      bottom: 10px;
+      height: 35px;
+      width: 35px;
+      background-color:red;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .overcirclew{
+        position:absolute;
+        right: 15px;
+        bottom: 15px;
+        height: 20px;
+        width: 20px;
+        background-color:red;
+        border-radius: 50%;
+        display: inline-block;
+      }
+
+
 
 /************************* Footer ********************************/
 
@@ -121,10 +162,10 @@ footer a {
    width: 90%;
  }
 
-/*********************** Screen size larger the 320px *********************/
+/*********************** Screen size for ipad *********************/
 
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 768px) {
 
 .nav li {
   background-color: #f7f5f0;
@@ -149,8 +190,9 @@ header img{
    font-size: 1.2em;
 
   }
-  h3{
-    margin: 8px
+  #portfolio {
+    margin-top: 25px;
+    margin-bottom: 35px;
   }
 
   .flex p{
@@ -224,12 +266,37 @@ header img{
    margin: 0px;
  }
 
+ .overcirclec{
+     position:absolute;
+     right: 10px;
+     bottom: 10px;
+     height: 35px;
+     width: 35px;
+     background-color:red;
+     border-radius: 50%;
+     display: inline-block;
+   }
+   .overcirclew{
+       position:absolute;
+       right: 1px;
+       top: 1px;
+       height: 65px;
+       width: 65px;
+       background-color:red;
+       border-radius: 50%;
+       display: inline-block;
+     }
+
 }
 
-/*********************** Screen size larger the 768px *********************/
 
 
-@media screen and (min-width: 769px) {
+
+
+/*********************** larger screen sizes *********************/
+
+
+@media screen and (min-width: 1024px) {
 body{
   padding: 20px;
 }
@@ -277,7 +344,10 @@ header p{
 }
 
 /****************** main portfolio section *****************/
-
+#portfolio {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
 .marketing{
   float: left;
   width: 33%;
@@ -331,6 +401,25 @@ display: inline;
   padding-left: 15px;
 }
 
-
+.overcirclec{
+    position:absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 35px;
+    width: 35px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .overcirclew{
+      position:absolute;
+      right: 1px;
+      top: 1px;
+      height: 100px;
+      width: 100px;
+      background-color:red;
+      border-radius: 50%;
+      display: inline-block;
+    }
 
 }
