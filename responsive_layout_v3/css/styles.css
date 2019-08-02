@@ -1,0 +1,336 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+ /************body and main elements*****************/
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #222;
+  background: #f7f5f0;
+
+}
+
+img{
+width: 95%;
+}
+
+header{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+header img{
+  margin-top: 10%;
+  width: 65%;
+}
+.flex{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#contact{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/************** navigatoin *********************/
+
+.main-nav {
+  width: 100%;
+  min-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+}
+
+.main-nav li{
+  margin-top: 4px;
+  padding: 10px;
+
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav li {
+  background-color: white;
+  border-radius: 5px;
+}
+
+li:hover{
+  background-color: blue;
+}
+
+.nav a{
+  text-decoration: none !important;
+  color:black;
+}
+
+}
+ul{
+  padding: 0px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.flex{
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  clear: both;
+  height: 100%;
+  overflow: hidden;
+}
+
+/************************* Footer ********************************/
+
+footer a {
+  margin: 5px;
+  border-radius: 10px;
+  list-style-type: none;
+  color: black;
+  text-decoration: none !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.name{
+  float:left;
+}
+.top{
+  float: right;
+  display: inline-block;
+}
+
+.bottom-nav li{
+  display: inline-block;
+}
+.bottom-nav{
+    display: none;
+    float: right;
+  }
+
+.clearfix {
+    overflow: auto;
+ }
+
+ .flex img{
+   width: 90%;
+ }
+
+/*********************** Screen size larger the 320px *********************/
+
+
+@media screen and (min-width: 321px) {
+
+.nav li {
+  background-color: #f7f5f0;
+  display: inline-block;
+  padding-left: 15px;
+}
+header{
+  margin: 15px 0 15px 0;
+  display: inline-block;
+  padding: 15px;
+  text-align: left;
+}
+
+header img{
+  float: right;
+  display: inline-block;
+  width: 40%;
+  margin: 15px;
+  }
+  header p{
+   padding-left: 20px;
+   font-size: 1.2em;
+
+  }
+  h3{
+    margin: 8px
+  }
+
+  .flex p{
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+.flex img{
+  width: 95%;
+}
+.marketing{
+  float: left;
+  width: 50%;
+}
+.search{
+  float: left;
+  width: 50%;
+}
+
+.travel{
+  float: left;
+  width: 50%;
+
+}
+.map{
+  float: left;
+  width: 50%;
+}
+.photo{
+  float: left;
+  width: 50%;
+}
+.calc{
+  float: left;
+  width: 50%;
+}
+.flex{
+  clear: both;
+  width: 100%;
+  padding: 15px;
+}
+
+.top{
+  display: none;
+  overflow: visible;
+}
+
+.bottom-nav{
+ float: right;
+  display: inline-block;
+
+}
+
+#contact{
+  margin-bottom: 45px;
+  clear: both;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#contact h3{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.flex{
+  clear: both;
+ }
+
+ .bottom-nav{
+   margin: 0px;
+ }
+
+}
+
+/*********************** Screen size larger the 768px *********************/
+
+
+@media screen and (min-width: 769px) {
+body{
+  padding: 20px;
+}
+
+
+.main-nav h2{
+  float: left;
+  margin: 15px;
+  margin-top: 25px;
+}
+
+.nav{
+  float: right;
+}
+
+.nav li {
+  display: inline-block;
+  margin-top: 25px;
+  background-color: #f7f5f0;
+
+}
+header{
+  margin: 15px 0 15px 0;
+  display: inline-block;
+  padding: 15px;
+  text-align: left;
+  font-size: 20px;
+}
+
+header img{
+  float: right;
+  display: inline-block;
+  width: 40%;
+  margin: 15px;
+}
+
+header p{
+ padding: 25px;
+ font-size: 25px;
+
+}
+.flex{
+  clear: both;
+
+}
+
+/****************** main portfolio section *****************/
+
+.marketing{
+  float: left;
+  width: 33%;
+}
+.search{
+  float: left;
+  width: 33%;
+}
+
+.travel{
+  float: left;
+  width: 33%;
+}
+.map{
+  float: left;
+  width: 33%;
+}
+.photo{
+  float: left;
+  width: 33%;
+}
+.calc{
+
+  float: left;
+  width: 33%;
+
+}
+
+.top{
+  display: none;
+}
+.bottom-nav{
+
+display: inline;
+
+}
+#contact{
+  margin-bottom: 45px;
+  clear: both;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#contact h3{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.flex{
+ clear: both;
+}
+.name{
+  padding-left: 15px;
+}
+
+
+
+}
