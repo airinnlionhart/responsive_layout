@@ -60,7 +60,7 @@ header img{
 }
 
 li:hover{
-  color:blue;
+  transform: scale(1.1)
 }
 
 .nav a{
